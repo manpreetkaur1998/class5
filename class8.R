@@ -3,7 +3,7 @@
 3+6
 1+5
 46+98
-# substraction
+# subtraction
 7-4
 19-16
 65-43
@@ -33,3 +33,8 @@ mean(c(1,10,100))
 mean(c(20,40,80))
 median(c(20,40,80))
 mode(c(20,40,80))
+#make a histogram and boxplot of mpg value from the dataset
+data(mtcars)
+mtcars
+boxplot(mtcars$mpg)
+hist(mtcars$mpg)
